@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
-@CrossOrigin(origins = ["http://localhost:5174"]) // Adjust based on your frontend port
+@CrossOrigin(origins = ["*"]) // Adjust based on your frontend port
 @RestController
 @RequestMapping("/api/employees")
 class EmployeeController(

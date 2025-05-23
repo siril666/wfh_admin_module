@@ -30,7 +30,7 @@ data class EmployeeInfo(
     @Column(name = "email_id", unique = true)
     val emailId: String,
 
-    @Column(name = "ph_number")
+    @Column(name = "phone_number")
     val phoneNumber: Long,
 
     val location: String,
